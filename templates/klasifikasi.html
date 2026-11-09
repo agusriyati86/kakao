@@ -1,0 +1,302 @@
+{% extends "base.html" %}
+
+{% block title %}Klasifikasi — Hama dan Penyakit Kakao{% endblock %}
+
+{% block content %}
+<style>
+  .cam-overlay{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;padding:12px}
+  .cam-overlay.open{display:flex}
+  .cam-box{background:#fff;color:#26301f;border-radius:16px;width:100%;max-width:560px;max-height:94dvh;overflow:auto;padding:18px 16px;position:relative;text-align:left}
+  .cam-box h3{margin:0 0 12px;font-family:var(--font-display);color:var(--forest-dark);padding-right:36px}
+  .cam-close{position:absolute;top:6px;right:8px;width:44px;height:44px;background:none;border:0;font-size:2rem;line-height:1;cursor:pointer;color:#444}
+  .cam-stage{background:#000;border-radius:12px;overflow:hidden;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center}
+  .cam-stage video,.cam-stage img{width:100%;height:100%;object-fit:contain}
+  .cam-msg{margin:10px 0 0;font-size:.9rem;color:#555;min-height:1.3em}
+  .cam-msg.err{color:#b3261e}
+  .cam-actions{display:flex;gap:10px;margin-top:12px}
+  .cam-actions button{flex:1;min-height:52px;border-radius:12px;border:0;font:600 1rem var(--font-body);cursor:pointer;background:var(--forest);color:#fff}
+  .cam-actions button.sec{background:#e6e6e6;color:#222}
+  .cam-actions button:disabled{opacity:.5;cursor:not-allowed}
+  .cam-actions [hidden]{display:none}
+</style>
+<section class="hero hero-klasifikasi">
+  <div class="klasifikasi-wrapper {% if hasil %}has-result{% endif %}">
+    <div class="hero-inner hero-inner--form">
+      {% if not hasil %}
+      <h1 class="hero-title hero-title--small">
+        Deteksi dan Klasifikasi Hama dan Penyakit pada Buah Kakao
+      </h1>
+      {% endif %}
+
+      <form class="upload-form" action="{{ url_for('klasifikasi') }}" method="post" enctype="multipart/form-data">
+        <h2 class="upload-label">Input Gambar atau Video</h2>
+
+        <label for="file-input" class="filebox">
+          <span class="filebox-btn">Choose Files</span>
+          <span class="filebox-name" id="filebox-name">Tidak Ada File Yang Dipilih</span>
+          <input
+            type="file"
+            id="file-input"
+            name="gambar"
+            accept=".jpg,.jpeg,.png,.mp4,.avi,.mov,.mkv"
+            required
+            hidden>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-outline" id="btn-klasifikasi">
+            Klasifikasi
+          </button>
+          <button type="button" class="btn-outline btn-outline--light" id="btn-buka-kamera">
+            📷 Ambil Foto
+          </button>
+          <a href="{{ url_for('klasifikasi') }}" class="btn-outline btn-outline--light">
+            Refresh
+          </a>
+        </div>
+      </form>
+
+      {% if hasil %}
+      <div class="result-section">
+        <div class="result-grid">
+
+          <!-- Hasil Gambar / Video -->
+          <figure class="result-figure">
+            {% if hasil.tipe == 'video' %}
+            <video
+              src="{{ url_for('static', filename=hasil.gambar_hasil) }}"
+              controls
+              playsinline
+              preload="metadata">
+            </video>
+            {% else %}
+            <img
+              src="{{ url_for('static', filename=hasil.gambar_hasil) }}"
+              alt="Hasil deteksi hama dan penyakit buah kakao">
+            {% endif %}
+          </figure>
+
+          <!-- Informasi Deteksi -->
+          <div class="result-panel">
+            <h3>Informasi Deteksi</h3>
+
+            <!-- Jumlah objek -->
+            <div class="total-detection-badge">
+              <span class="total-label">
+                {{ "Objek Terbanyak dalam Satu Frame" if hasil.tipe == 'video' else "Jumlah Objek Terdeteksi" }}
+              </span>
+              <span class="total-number">{{ hasil.jumlah_total }} <small>Objek</small></span>
+            </div>
+
+            {% if hasil.deteksi_list %}
+            <div class="detection-list-wrapper">
+
+              <!-- Kelas dan confidence -->
+              <span class="detection-list-title">
+                {{ "Kelas dan Confidence Tertinggi" if hasil.tipe == 'video' else "Kelas dan Confidence" }}
+              </span>
+
+              <ul class="conf-list">
+                {% for d in hasil.deteksi_list %}
+                <li class="conf-item">
+                  <div class="conf-row">
+                    <span class="dot" style="background: {{ d.warna }}"></span>
+                    <span class="conf-name">{{ d.nama }}</span>
+                    <strong class="conf-value">{{ d.confidence }}%</strong>
+                  </div>
+                  <div class="conf-bar">
+                    <span class="conf-fill" style="width: {{ d.confidence }}%"></span>
+                  </div>
+                  {% if d.keterangan %}
+                  <small class="conf-note">{{ d.keterangan }}</small>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+
+              <!-- Jumlah per kelas -->
+              <span class="detection-list-title">
+                {{ "Jumlah per Kelas (maksimum per frame)" if hasil.tipe == 'video' else "Jumlah per Kelas" }}
+              </span>
+              <div class="class-chips">
+                {% for item in hasil.ringkasan %}
+                  {% if item.jumlah > 0 %}
+                  <span class="class-chip">
+                    <span class="dot" style="background: {{ item.warna }}"></span>
+                    {{ item.nama }} <strong>{{ item.jumlah }}</strong>
+                  </span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+
+            </div>
+            {% else %}
+            <p class="result-empty">
+              Tidak ada objek hama atau penyakit yang terdeteksi.
+            </p>
+            {% endif %}
+
+            {% if hasil.saran_list %}
+            <div class="panel-actions">
+              <button type="button" class="btn-saran" id="btn-saran">
+                Saran Pengendalian
+              </button>
+            </div>
+            {% endif %}
+          </div>
+
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- Modal Kamera -->
+<div class="cam-overlay" id="cam-overlay" aria-hidden="true">
+  <div class="cam-box" role="dialog" aria-modal="true" aria-labelledby="cam-title">
+    <button type="button" class="cam-close" id="cam-close" aria-label="Tutup">&times;</button>
+    <h3 id="cam-title">Ambil Foto Buah Kakao</h3>
+    <div class="cam-stage">
+      <video id="cam-video" autoplay playsinline muted></video>
+      <img id="cam-preview" alt="Foto yang diambil" hidden>
+    </div>
+    <canvas id="cam-canvas" hidden></canvas>
+    <p class="cam-msg" id="cam-msg"></p>
+    <div class="cam-actions">
+      <button type="button" id="cam-snap">Ambil Foto</button>
+      <button type="button" id="cam-retake" class="sec" hidden>Ulangi</button>
+      <button type="button" id="cam-send" hidden>Klasifikasi</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Saran Pengendalian -->
+{% if hasil and hasil.saran_list %}
+<div class="modal-overlay" id="modal-overlay" aria-hidden="true">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button type="button" class="modal-close" id="modal-close" aria-label="Tutup">
+      &times;
+    </button>
+
+    <h3 class="modal-title" id="modal-title">Saran Pengendalian</h3>
+
+    <div class="modal-body">
+      {% for s in hasil.saran_list %}
+      <div class="saran-block">
+        <h4>
+          <span class="dot" style="background: {{ s.warna }}"></span>
+          {{ s.nama }}
+        </h4>
+
+        <ul>
+          {% for poin in s.poin %}
+          <li>{{ poin }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+
+      {% if hasil.saran_sumber %}
+      <p class="modal-source">
+        Sumber: {{ hasil.saran_sumber }}
+      </p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<div class="loading-overlay" id="loading-overlay" aria-hidden="true">
+  <div class="loading-box">
+    <div class="loading-spinner"></div>
+    <p class="loading-title">Memproses video&hellip;</p>
+    <p class="loading-sub">
+      Setiap frame dianalisis oleh model. Mohon jangan tutup halaman ini.
+    </p>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script>
+(function () {
+  var MAX_SIDE = 1280, QUALITY = 0.85;
+  var $ = function (id) { return document.getElementById(id); };
+  var overlay = $("cam-overlay"), video = $("cam-video"), canvas = $("cam-canvas");
+  var preview = $("cam-preview"), msg = $("cam-msg");
+  var bSnap = $("cam-snap"), bRetake = $("cam-retake"), bSend = $("cam-send");
+  var input = $("file-input"), form = input.closest("form");
+  var stream = null, blob = null;
+
+  function say(t, err) { msg.textContent = t || ""; msg.className = "cam-msg" + (err ? " err" : ""); }
+  function stop() {
+    if (stream) { stream.getTracks().forEach(function (t) { t.stop(); }); stream = null; }
+    video.srcObject = null;
+  }
+  function tampilKamera() {
+    preview.hidden = true; video.hidden = false;
+    bSnap.hidden = false; bRetake.hidden = true; bSend.hidden = true; blob = null;
+  }
+  async function start() {
+    tampilKamera(); say("");
+    if (!window.isSecureContext || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      say("Kamera hanya bisa dibuka lewat HTTPS atau localhost. Gunakan Cloudflare Tunnel untuk HP.", true);
+      bSnap.disabled = true; return;
+    }
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({
+        audio: false,
+        video: { facingMode: { ideal: "environment" }, width: { ideal: 1280 }, height: { ideal: 720 } }
+      });
+      video.srcObject = stream;
+      bSnap.disabled = false;
+      say("Arahkan kamera ke buah kakao, lalu tekan Ambil Foto.");
+    } catch (e) {
+      bSnap.disabled = true;
+      say(e && e.name === "NotAllowedError"
+        ? "Izin kamera ditolak. Izinkan kamera di pengaturan browser."
+        : "Kamera tidak dapat dibuka.", true);
+    }
+  }
+  function open() { overlay.classList.add("open"); overlay.setAttribute("aria-hidden", "false"); start(); }
+  function close() { overlay.classList.remove("open"); overlay.setAttribute("aria-hidden", "true"); stop(); }
+
+  bSnap.addEventListener("click", function () {
+    var w = video.videoWidth, h = video.videoHeight;
+    if (!w || !h) { say("Kamera belum siap.", true); return; }
+    var s = Math.min(1, MAX_SIDE / Math.max(w, h));
+    canvas.width = Math.round(w * s); canvas.height = Math.round(h * s);
+    canvas.getContext("2d").drawImage(video, 0, 0, canvas.width, canvas.height);
+    canvas.toBlob(function (b) {
+      if (!b) { say("Foto gagal diambil.", true); return; }
+      blob = b;
+      preview.src = URL.createObjectURL(b);
+      preview.hidden = false; video.hidden = true;
+      stop();
+      bSnap.hidden = true; bRetake.hidden = false; bSend.hidden = false;
+      say("Periksa foto, lalu tekan Klasifikasi.");
+    }, "image/jpeg", QUALITY);
+  });
+  bRetake.addEventListener("click", start);
+  bSend.addEventListener("click", function () {
+    if (!blob) return;
+    if (typeof DataTransfer === "undefined") { say("Browser tidak mendukung. Pakai Choose Files.", true); return; }
+    var dt = new DataTransfer();
+    dt.items.add(new File([blob], "kamera.jpg", { type: "image/jpeg" }));
+    input.files = dt.files;
+    input.dispatchEvent(new Event("change", { bubbles: true }));
+    close();
+    if (form.requestSubmit) form.requestSubmit(); else form.submit();
+  });
+
+  $("btn-buka-kamera").addEventListener("click", open);
+  $("cam-close").addEventListener("click", close);
+  overlay.addEventListener("click", function (e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") close(); });
+  window.addEventListener("pagehide", stop);
+  document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); });
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,5 @@
+flask==3.0.3
+werkzeug==3.0.4
+ultralytics==8.4.138
+imageio-ffmpeg
+lap>=0.5.12

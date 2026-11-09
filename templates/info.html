@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Info — Hama dan Penyakit Kakao{% endblock %}
+
+{% block content %}
+<section class="hero hero-info info-page">
+  <div class="hero-overlay"></div>
+  <div class="hero-inner hero-inner--info">
+    <h1 class="info-heading">Karakteristik Hama dan Penyakit</h1>
+    <p class="info-subheading">
+      Karakteristik visual dari setiap kategori yang dideteksi oleh model AI
+    </p>
+
+    <div class="info-grid">
+      {% for k in kartu %}
+      <article class="info-card">
+        <div class="info-card-image">
+          <img src="{{ url_for('static', filename='img/' ~ k.gambar) }}" alt="{{ k.nama }}">
+          <span class="info-badge info-badge--{{ k.kategori|lower }}">{{ k.kategori }}</span>
+        </div>
+        <div class="info-card-body">
+          <h3>{{ k.nama }}</h3>
+          <p class="info-card-latin">({{ k.nama_ilmiah }})</p>
+          <hr class="info-divider">
+          <p class="info-card-label">CIRI-CIRI UTAMA:</p>
+          <ul class="info-ciri-list">
+            {% for c in k.ciri %}
+            <li>{{ c }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

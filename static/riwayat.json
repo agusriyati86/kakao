@@ -1,0 +1,2131 @@
+[
+  {
+    "id": "20261018_135518_321494_IMG_20261003_112628_426.jpg",
+    "tipe": "gambar",
+    "waktu": "18 Oct 2026, 13:55",
+    "gambar_hasil": "results/hasil_20261018_135518_321494_IMG_20261003_112628_426.jpg",
+    "hasil": "Penggerek Buah, Busuk Buah",
+    "confidence": 89.6,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 89.6,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 84.8,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261018_135550_423021_IMG_20261003_120408_339.jpg",
+    "tipe": "gambar",
+    "waktu": "18 Oct 2026, 13:55",
+    "gambar_hasil": "results/hasil_20261018_135550_423021_IMG_20261003_120408_339.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.4,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.4,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 84.2,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 73.2,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 73.1,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261018_135606_101917_IMG_20261003_120816_405.jpg",
+    "tipe": "gambar",
+    "waktu": "18 Oct 2026, 13:56",
+    "gambar_hasil": "results/hasil_20261018_135606_101917_IMG_20261003_120816_405.jpg",
+    "hasil": "Penggerek Buah",
+    "confidence": 91.2,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 91.2,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261018_135641_009189_VID_20261011_133730.mp4",
+    "tipe": "video",
+    "waktu": "18 Oct 2026, 13:57",
+    "gambar_hasil": "results/hasil_20261018_135641_009189_VID_20261011_133730.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 93.5,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 93.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:07"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 93.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:07"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 87.8,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:04"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 84.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:07"
+      }
+    ],
+    "info_video": {
+      "durasi": 7.1,
+      "fps": 24.0,
+      "frame_total": 170,
+      "frame_diproses": 170,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261021_095712_260379_VID_20261011_133730.mp4",
+    "tipe": "video",
+    "waktu": "21 Oct 2026, 09:58",
+    "gambar_hasil": "results/hasil_20261021_095712_260379_VID_20261011_133730.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 93.5,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 93.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:07"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 93.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:07"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 87.8,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:04"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 84.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:07"
+      }
+    ],
+    "info_video": {
+      "durasi": 7.1,
+      "fps": 24.0,
+      "frame_total": 170,
+      "frame_diproses": 170,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261026_123214_997819_IMG_7388.jpg",
+    "tipe": "gambar",
+    "waktu": "26 Oct 2026, 12:32",
+    "gambar_hasil": "results/hasil_20261026_123214_997819_IMG_7388.jpg",
+    "hasil": "Busuk Buah",
+    "confidence": 93.7,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 93.7,
+        "warna": "#7A2E2E"
+      }
+    ]
+  },
+  {
+    "id": "20261026_123304_407500_IMG_20260601_131228_746.jpg",
+    "tipe": "gambar",
+    "waktu": "26 Oct 2026, 12:33",
+    "gambar_hasil": "results/hasil_20261026_123304_407500_IMG_20260601_131228_746.jpg",
+    "hasil": "Kepik Pengisap, Busuk Buah",
+    "confidence": 69.8,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 69.8,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 56.7,
+        "warna": "#C08A34"
+      },
+      {
+        "nama": "Busuk Buah",
+        "confidence": 54.6,
+        "warna": "#7A2E2E"
+      }
+    ]
+  },
+  {
+    "id": "20261026_123322_093866_IMG_20260601_132749_075.jpg",
+    "tipe": "gambar",
+    "waktu": "26 Oct 2026, 12:33",
+    "gambar_hasil": "results/hasil_20261026_123322_093866_IMG_20260601_132749_075.jpg",
+    "hasil": "Penggerek Buah",
+    "confidence": 84.0,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 84.0,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261026_162028_826876_VID_20261011_133730.mp4",
+    "tipe": "video",
+    "waktu": "26 Oct 2026, 16:21",
+    "gambar_hasil": "results/hasil_20261026_162028_826876_VID_20261011_133730.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 93.5,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 93.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:07"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 93.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:07"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 87.8,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:04"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 84.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:07"
+      }
+    ],
+    "info_video": {
+      "durasi": 7.1,
+      "fps": 24.0,
+      "frame_total": 170,
+      "frame_diproses": 170,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261026_162218_412043_VID_20261011_133529.mp4",
+    "tipe": "video",
+    "waktu": "26 Oct 2026, 16:24",
+    "gambar_hasil": "results/hasil_20261026_162218_412043_VID_20261011_133529.mp4",
+    "hasil": "Busuk Buah, Buah Sehat",
+    "confidence": 95.0,
+    "jumlah_total": 6,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #19",
+        "confidence": 95.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:05–0:15"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 92.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:01"
+      },
+      {
+        "nama": "Busuk Buah #20",
+        "confidence": 89.6,
+        "vote_share": 93.9,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:06–0:10"
+      },
+      {
+        "nama": "Buah Sehat #4",
+        "confidence": 87.7,
+        "vote_share": 75.9,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:06"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 76.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:00"
+      },
+      {
+        "nama": "Buah Sehat #11",
+        "confidence": 57.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:04–0:04"
+      }
+    ],
+    "info_video": {
+      "durasi": 15.6,
+      "fps": 24.0,
+      "frame_total": 375,
+      "frame_diproses": 375,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261026_162719_482780_VID_20261011_133718.mp4",
+    "tipe": "video",
+    "waktu": "26 Oct 2026, 16:28",
+    "gambar_hasil": "results/hasil_20261026_162719_482780_VID_20261011_133718.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 94.7,
+    "jumlah_total": 5,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 94.7,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:03"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 94.3,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:08"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 88.8,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:02"
+      },
+      {
+        "nama": "Buah Sehat #5",
+        "confidence": 87.7,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:07–0:08"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 81.9,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:00–0:03"
+      }
+    ],
+    "info_video": {
+      "durasi": 8.2,
+      "fps": 24.0,
+      "frame_total": 196,
+      "frame_diproses": 196,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261027_101317_748607_VID_20261011_133718.mp4",
+    "tipe": "video",
+    "waktu": "27 Oct 2026, 10:14",
+    "gambar_hasil": "results/hasil_20261027_101317_748607_VID_20261011_133718.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 94.7,
+    "jumlah_total": 5,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 94.7,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:03"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 94.3,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:08"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 88.8,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:02"
+      },
+      {
+        "nama": "Buah Sehat #5",
+        "confidence": 87.7,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:07–0:08"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 81.9,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:00–0:03"
+      }
+    ],
+    "info_video": {
+      "durasi": 8.2,
+      "fps": 24.0,
+      "frame_total": 196,
+      "frame_diproses": 196,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261028_185106_824987_VID_20261011_133303.mp4",
+    "tipe": "video",
+    "waktu": "28 Oct 2026, 18:52",
+    "gambar_hasil": "results/hasil_20261028_185106_824987_VID_20261011_133303.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 95.0,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah #2",
+        "confidence": 95.0,
+        "vote_share": 99.4,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:01–0:06"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 79.8,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:02"
+      },
+      {
+        "nama": "Buah Sehat #5",
+        "confidence": 76.5,
+        "vote_share": 82.7,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:03"
+      }
+    ],
+    "info_video": {
+      "durasi": 6.5,
+      "fps": 24.0,
+      "frame_total": 157,
+      "frame_diproses": 157,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261029_082948_443124_VID_20261011_133627.mp4",
+    "tipe": "video",
+    "waktu": "29 Oct 2026, 08:32",
+    "gambar_hasil": "results/hasil_20261029_082948_443124_VID_20261011_133627.mp4",
+    "hasil": "Busuk Buah, Buah Sehat",
+    "confidence": 94.0,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 94.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:05–0:13"
+      },
+      {
+        "nama": "Busuk Buah #1",
+        "confidence": 91.3,
+        "vote_share": 100.0,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:00–0:02"
+      }
+    ],
+    "info_video": {
+      "durasi": 19.2,
+      "fps": 24.0,
+      "frame_total": 461,
+      "frame_diproses": 461,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261029_104145_661428_VID_20261011_133505.mp4",
+    "tipe": "video",
+    "waktu": "29 Oct 2026, 10:44",
+    "gambar_hasil": "results/hasil_20261029_104145_661428_VID_20261011_133505.mp4",
+    "hasil": "Penggerek Buah, Busuk Buah, Buah Sehat",
+    "confidence": 95.4,
+    "jumlah_total": 7,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #8",
+        "confidence": 95.4,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:16–0:19"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 94.8,
+        "vote_share": 98.4,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:03"
+      },
+      {
+        "nama": "Busuk Buah #5",
+        "confidence": 92.3,
+        "vote_share": 100.0,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:06–0:11"
+      },
+      {
+        "nama": "Busuk Buah #6",
+        "confidence": 90.5,
+        "vote_share": 100.0,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:12–0:16"
+      },
+      {
+        "nama": "Buah Sehat #4",
+        "confidence": 88.8,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:04–0:05"
+      },
+      {
+        "nama": "Buah Sehat #7",
+        "confidence": 78.2,
+        "vote_share": 56.9,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:12–0:14"
+      },
+      {
+        "nama": "Penggerek Buah #3",
+        "confidence": 63.2,
+        "vote_share": 69.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:03"
+      }
+    ],
+    "info_video": {
+      "durasi": 19.8,
+      "fps": 24.0,
+      "frame_total": 476,
+      "frame_diproses": 476,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261101_140508_192684_VID_20261011_133529.mp4",
+    "tipe": "video",
+    "waktu": "01 Nov 2026, 14:08",
+    "gambar_hasil": "results/hasil_20261101_140508_192684_VID_20261011_133529.mp4",
+    "hasil": "Busuk Buah, Buah Sehat",
+    "confidence": 95.0,
+    "jumlah_total": 6,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #19",
+        "confidence": 95.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:05–0:15"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 92.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:01"
+      },
+      {
+        "nama": "Busuk Buah #20",
+        "confidence": 89.6,
+        "vote_share": 93.9,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:06–0:10"
+      },
+      {
+        "nama": "Buah Sehat #4",
+        "confidence": 87.7,
+        "vote_share": 75.9,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:06"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 76.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:00"
+      },
+      {
+        "nama": "Buah Sehat #11",
+        "confidence": 57.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:04–0:04"
+      }
+    ],
+    "info_video": {
+      "durasi": 15.6,
+      "fps": 24.0,
+      "frame_total": 375,
+      "frame_diproses": 375,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261102_121357_653164_VID_20261011_133505.mp4",
+    "tipe": "video",
+    "waktu": "02 Nov 2026, 12:16",
+    "gambar_hasil": "results/hasil_20261102_121357_653164_VID_20261011_133505.mp4",
+    "hasil": "Penggerek Buah, Busuk Buah, Buah Sehat",
+    "confidence": 95.4,
+    "jumlah_total": 7,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #8",
+        "confidence": 95.4,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:16–0:19"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 94.8,
+        "vote_share": 98.4,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:03"
+      },
+      {
+        "nama": "Busuk Buah #5",
+        "confidence": 92.3,
+        "vote_share": 100.0,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:06–0:11"
+      },
+      {
+        "nama": "Busuk Buah #6",
+        "confidence": 90.5,
+        "vote_share": 100.0,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:12–0:16"
+      },
+      {
+        "nama": "Buah Sehat #4",
+        "confidence": 88.8,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:04–0:05"
+      },
+      {
+        "nama": "Buah Sehat #7",
+        "confidence": 78.2,
+        "vote_share": 56.9,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:12–0:14"
+      },
+      {
+        "nama": "Penggerek Buah #3",
+        "confidence": 63.2,
+        "vote_share": 69.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:03"
+      }
+    ],
+    "info_video": {
+      "durasi": 19.8,
+      "fps": 24.0,
+      "frame_total": 476,
+      "frame_diproses": 476,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261102_190725_199919_IMG_20260601_131228_746.jpg",
+    "tipe": "gambar",
+    "waktu": "02 Nov 2026, 19:07",
+    "gambar_hasil": "results/hasil_20261102_190725_199919_IMG_20260601_131228_746.jpg",
+    "hasil": "Kepik Pengisap, Busuk Buah",
+    "confidence": 69.8,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 69.8,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 56.7,
+        "warna": "#C08A34"
+      },
+      {
+        "nama": "Busuk Buah",
+        "confidence": 54.6,
+        "warna": "#7A2E2E"
+      }
+    ]
+  },
+  {
+    "id": "20261102_190503_468564_VID_20261011_133505.mp4",
+    "tipe": "video",
+    "waktu": "02 Nov 2026, 19:07",
+    "gambar_hasil": "results/hasil_20261102_190503_468564_VID_20261011_133505.mp4",
+    "hasil": "Penggerek Buah, Busuk Buah, Buah Sehat",
+    "confidence": 95.4,
+    "jumlah_total": 7,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #8",
+        "confidence": 95.4,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:16–0:19"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 94.8,
+        "vote_share": 98.4,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:03"
+      },
+      {
+        "nama": "Busuk Buah #5",
+        "confidence": 92.3,
+        "vote_share": 100.0,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:06–0:11"
+      },
+      {
+        "nama": "Busuk Buah #6",
+        "confidence": 90.5,
+        "vote_share": 100.0,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:12–0:16"
+      },
+      {
+        "nama": "Buah Sehat #4",
+        "confidence": 88.8,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:04–0:05"
+      },
+      {
+        "nama": "Buah Sehat #7",
+        "confidence": 78.2,
+        "vote_share": 56.9,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:12–0:14"
+      },
+      {
+        "nama": "Penggerek Buah #3",
+        "confidence": 63.2,
+        "vote_share": 69.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:03"
+      }
+    ],
+    "info_video": {
+      "durasi": 19.8,
+      "fps": 24.0,
+      "frame_total": 476,
+      "frame_diproses": 476,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261102_190745_137060_IMG_20260601_131112_780.jpg",
+    "tipe": "gambar",
+    "waktu": "02 Nov 2026, 19:07",
+    "gambar_hasil": "results/hasil_20261102_190745_137060_IMG_20260601_131112_780.jpg",
+    "hasil": "Penggerek Buah, Kepik Pengisap",
+    "confidence": 82.7,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 82.7,
+        "warna": "#C08A34"
+      },
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 54.2,
+        "warna": "#C08A34"
+      },
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 54.2,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261102_190801_372232_IMG_20260601_131306_117.jpg",
+    "tipe": "gambar",
+    "waktu": "02 Nov 2026, 19:08",
+    "gambar_hasil": "results/hasil_20261102_190801_372232_IMG_20260601_131306_117.jpg",
+    "hasil": "Penggerek Buah, Busuk Buah",
+    "confidence": 85.5,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 85.5,
+        "warna": "#8C4A2F"
+      },
+      {
+        "nama": "Busuk Buah",
+        "confidence": 69.9,
+        "warna": "#7A2E2E"
+      }
+    ]
+  },
+  {
+    "id": "20261102_190813_543691_IMG_20260601_132309_700.jpg",
+    "tipe": "gambar",
+    "waktu": "02 Nov 2026, 19:08",
+    "gambar_hasil": "results/hasil_20261102_190813_543691_IMG_20260601_132309_700.jpg",
+    "hasil": "Busuk Buah",
+    "confidence": 92.7,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 92.7,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Busuk Buah",
+        "confidence": 92.3,
+        "warna": "#7A2E2E"
+      }
+    ]
+  },
+  {
+    "id": "20261102_190824_395268_IMG_20260601_131629_513.jpg",
+    "tipe": "gambar",
+    "waktu": "02 Nov 2026, 19:08",
+    "gambar_hasil": "results/hasil_20261102_190824_395268_IMG_20260601_131629_513.jpg",
+    "hasil": "Tidak terdeteksi",
+    "confidence": 0.0,
+    "jumlah_total": 0,
+    "deteksi_list": []
+  },
+  {
+    "id": "20261102_221046_416964_IMG_20260601_131629_513.jpg",
+    "tipe": "gambar",
+    "waktu": "02 Nov 2026, 22:10",
+    "gambar_hasil": "results/hasil_20261102_221046_416964_IMG_20260601_131629_513.jpg",
+    "hasil": "Tidak terdeteksi",
+    "confidence": 0.0,
+    "jumlah_total": 0,
+    "deteksi_list": []
+  },
+  {
+    "id": "20261102_221052_406725_IMG_20260601_131629_513.jpg",
+    "tipe": "gambar",
+    "waktu": "02 Nov 2026, 22:10",
+    "gambar_hasil": "results/hasil_20261102_221052_406725_IMG_20260601_131629_513.jpg",
+    "hasil": "Tidak terdeteksi",
+    "confidence": 0.0,
+    "jumlah_total": 0,
+    "deteksi_list": []
+  },
+  {
+    "id": "20261102_221746_941385_IMG_20260601_131629_513.jpg",
+    "tipe": "gambar",
+    "waktu": "02 Nov 2026, 22:17",
+    "gambar_hasil": "results/hasil_20261102_221746_941385_IMG_20260601_131629_513.jpg",
+    "hasil": "Tidak terdeteksi",
+    "confidence": 0.0,
+    "jumlah_total": 0,
+    "deteksi_list": []
+  },
+  {
+    "id": "20261103_085402_083707_24070.jpg",
+    "tipe": "gambar",
+    "waktu": "03 Nov 2026, 08:54",
+    "gambar_hasil": "results/hasil_20261103_085402_083707_24070.jpg",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 85.7,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 85.7,
+        "warna": "#8C4A2F"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 58.0,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261103_104525_608512_24010.mp4",
+    "tipe": "video",
+    "waktu": "03 Nov 2026, 10:47",
+    "gambar_hasil": "results/hasil_20261103_104525_608512_24010.mp4",
+    "hasil": "Buah Sehat",
+    "confidence": 95.7,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 95.7,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:10"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 92.9,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:01"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 89.9,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:03–0:10"
+      }
+    ],
+    "info_video": {
+      "durasi": 10.4,
+      "fps": 26.1,
+      "frame_total": 273,
+      "frame_diproses": 273,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261103_145627_837910_24085.jpg",
+    "tipe": "gambar",
+    "waktu": "03 Nov 2026, 14:56",
+    "gambar_hasil": "results/hasil_20261103_145627_837910_24085.jpg",
+    "hasil": "Kepik Pengisap, Buah Sehat",
+    "confidence": 93.7,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 93.7,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 71.4,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 70.0,
+        "warna": "#C08A34"
+      }
+    ]
+  },
+  {
+    "id": "20261103_195247_459698_VID_20261011_133303.mp4",
+    "tipe": "video",
+    "waktu": "03 Nov 2026, 19:54",
+    "gambar_hasil": "results/hasil_20261103_195247_459698_VID_20261011_133303.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 95.0,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah #2",
+        "confidence": 95.0,
+        "vote_share": 99.4,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:01–0:06"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 79.8,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:02"
+      },
+      {
+        "nama": "Buah Sehat #5",
+        "confidence": 76.5,
+        "vote_share": 82.7,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:03"
+      }
+    ],
+    "info_video": {
+      "durasi": 6.5,
+      "fps": 24.0,
+      "frame_total": 157,
+      "frame_diproses": 157,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261103_214041_279093_VID_20261011_133730.mp4",
+    "tipe": "video",
+    "waktu": "03 Nov 2026, 21:42",
+    "gambar_hasil": "results/hasil_20261103_214041_279093_VID_20261011_133730.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 93.5,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 93.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:07"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 93.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:07"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 87.8,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:04"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 84.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:07"
+      }
+    ],
+    "info_video": {
+      "durasi": 7.1,
+      "fps": 24.0,
+      "frame_total": 170,
+      "frame_diproses": 170,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261103_214456_598444_VID_20261011_133529.mp4",
+    "tipe": "video",
+    "waktu": "03 Nov 2026, 21:48",
+    "gambar_hasil": "results/hasil_20261103_214456_598444_VID_20261011_133529.mp4",
+    "hasil": "Busuk Buah, Buah Sehat",
+    "confidence": 95.0,
+    "jumlah_total": 6,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #19",
+        "confidence": 95.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:05–0:15"
+      },
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 92.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:01"
+      },
+      {
+        "nama": "Busuk Buah #20",
+        "confidence": 89.6,
+        "vote_share": 93.9,
+        "warna": "#7A2E2E",
+        "keterangan": "muncul 0:06–0:10"
+      },
+      {
+        "nama": "Buah Sehat #4",
+        "confidence": 87.7,
+        "vote_share": 75.9,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:06"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 76.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:00"
+      },
+      {
+        "nama": "Buah Sehat #11",
+        "confidence": 57.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:04–0:04"
+      }
+    ],
+    "info_video": {
+      "durasi": 15.6,
+      "fps": 24.0,
+      "frame_total": 375,
+      "frame_diproses": 375,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261103_215224_708823_IMG_20260601_132309_700.jpg",
+    "tipe": "gambar",
+    "waktu": "03 Nov 2026, 21:52",
+    "gambar_hasil": "results/hasil_20261103_215224_708823_IMG_20260601_132309_700.jpg",
+    "hasil": "Busuk Buah",
+    "confidence": 92.7,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 92.7,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Busuk Buah",
+        "confidence": 92.3,
+        "warna": "#7A2E2E"
+      }
+    ]
+  },
+  {
+    "id": "20261104_130149_401928_IMG-20260603-WA0006.jpg",
+    "tipe": "gambar",
+    "waktu": "04 Nov 2026, 13:01",
+    "gambar_hasil": "results/hasil_20261104_130149_401928_IMG-20260603-WA0006.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 95.1,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 95.1,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 90.9,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261105_101312_829647_IMG_20260601_131802_783.jpg",
+    "tipe": "gambar",
+    "waktu": "05 Nov 2026, 10:13",
+    "gambar_hasil": "results/hasil_20261105_101312_829647_IMG_20260601_131802_783.jpg",
+    "hasil": "Kepik Pengisap",
+    "confidence": 91.3,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 91.3,
+        "warna": "#C08A34"
+      }
+    ]
+  },
+  {
+    "id": "20261105_101644_639230_IMG_20260601_131802_783.jpg",
+    "tipe": "gambar",
+    "waktu": "05 Nov 2026, 10:16",
+    "gambar_hasil": "results/hasil_20261105_101644_639230_IMG_20260601_131802_783.jpg",
+    "hasil": "Kepik Pengisap",
+    "confidence": 91.3,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 91.3,
+        "warna": "#C08A34"
+      }
+    ]
+  },
+  {
+    "id": "20261105_101657_888664_IMG_20260601_131802_783.jpg",
+    "tipe": "gambar",
+    "waktu": "05 Nov 2026, 10:16",
+    "gambar_hasil": "results/hasil_20261105_101657_888664_IMG_20260601_131802_783.jpg",
+    "hasil": "Kepik Pengisap",
+    "confidence": 91.3,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 91.3,
+        "warna": "#C08A34"
+      }
+    ]
+  },
+  {
+    "id": "20261105_102544_605076_IMG_20260601_131802_783.jpg",
+    "tipe": "gambar",
+    "waktu": "05 Nov 2026, 10:25",
+    "gambar_hasil": "results/hasil_20261105_102544_605076_IMG_20260601_131802_783.jpg",
+    "hasil": "Kepik Pengisap",
+    "confidence": 91.3,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 91.3,
+        "warna": "#C08A34"
+      }
+    ]
+  },
+  {
+    "id": "20261105_103048_389492_IMG_20260601_132309_700.jpg",
+    "tipe": "gambar",
+    "waktu": "05 Nov 2026, 10:30",
+    "gambar_hasil": "results/hasil_20261105_103048_389492_IMG_20260601_132309_700.jpg",
+    "hasil": "Busuk Buah",
+    "confidence": 92.7,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 92.7,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Busuk Buah",
+        "confidence": 92.3,
+        "warna": "#7A2E2E"
+      }
+    ]
+  },
+  {
+    "id": "20261105_103257_771267_VID_20261011_133730.mp4",
+    "tipe": "video",
+    "waktu": "05 Nov 2026, 10:33",
+    "gambar_hasil": "results/hasil_20261105_103257_771267_VID_20261011_133730.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 93.5,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 93.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:07"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 93.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:07"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 87.8,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:04"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 84.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:07"
+      }
+    ],
+    "info_video": {
+      "durasi": 7.1,
+      "fps": 24.0,
+      "frame_total": 170,
+      "frame_diproses": 170,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261105_104231_735056_VID_20261011_133730.mp4",
+    "tipe": "video",
+    "waktu": "05 Nov 2026, 10:43",
+    "gambar_hasil": "results/hasil_20261105_104231_735056_VID_20261011_133730.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 93.5,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 93.5,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:07"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 93.2,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:01–0:07"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 87.8,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:03–0:04"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 84.0,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:02–0:07"
+      }
+    ],
+    "info_video": {
+      "durasi": 7.1,
+      "fps": 24.0,
+      "frame_total": 170,
+      "frame_diproses": 170,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261105_104345_251515_IMG_20260601_131228_746.jpg",
+    "tipe": "gambar",
+    "waktu": "05 Nov 2026, 10:43",
+    "gambar_hasil": "results/hasil_20261105_104345_251515_IMG_20260601_131228_746.jpg",
+    "hasil": "Kepik Pengisap, Busuk Buah",
+    "confidence": 69.8,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 69.8,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 56.7,
+        "warna": "#C08A34"
+      },
+      {
+        "nama": "Busuk Buah",
+        "confidence": 54.6,
+        "warna": "#7A2E2E"
+      }
+    ]
+  },
+  {
+    "id": "20261105_135226_783660_VID_20261011_133718.mp4",
+    "tipe": "video",
+    "waktu": "05 Nov 2026, 13:53",
+    "gambar_hasil": "results/hasil_20261105_135226_783660_VID_20261011_133718.mp4",
+    "hasil": "Penggerek Buah, Buah Sehat",
+    "confidence": 94.7,
+    "jumlah_total": 5,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 94.7,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:03"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 94.3,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:08"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 88.8,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:02"
+      },
+      {
+        "nama": "Buah Sehat #5",
+        "confidence": 87.7,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:07–0:08"
+      },
+      {
+        "nama": "Penggerek Buah #4",
+        "confidence": 81.9,
+        "vote_share": 100.0,
+        "warna": "#8C4A2F",
+        "keterangan": "muncul 0:00–0:03"
+      }
+    ],
+    "info_video": {
+      "durasi": 8.2,
+      "fps": 24.0,
+      "frame_total": 196,
+      "frame_diproses": 196,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261108_141357_696451_24128.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 14:14",
+    "gambar_hasil": "results/hasil_20261108_141357_696451_24128.jpg",
+    "hasil": "Penggerek Buah",
+    "confidence": 95.1,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 95.1,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261108_195052_128206_24107.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 19:50",
+    "gambar_hasil": "results/hasil_20261108_195052_128206_24107.jpg",
+    "hasil": "Penggerek Buah",
+    "confidence": 80.0,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 80.0,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261108_195145_101016_tabel44_no1_kelas0_1.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 19:51",
+    "gambar_hasil": "results/hasil_20261108_195145_101016_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261108_195403_927563_24129.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 19:54",
+    "gambar_hasil": "results/hasil_20261108_195403_927563_24129.jpg",
+    "hasil": "Penggerek Buah",
+    "confidence": 92.9,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 92.9,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261108_200430_188362_tabel44_no1_kelas0_1.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 20:04",
+    "gambar_hasil": "results/hasil_20261108_200430_188362_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261108_213719_391334_tabel44_no1_kelas0_1.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 21:37",
+    "gambar_hasil": "results/hasil_20261108_213719_391334_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261108_213724_720566_tabel44_no1_kelas0_1.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 21:37",
+    "gambar_hasil": "results/hasil_20261108_213724_720566_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261108_214637_852913_IMG_20261003_112628_426.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 21:46",
+    "gambar_hasil": "results/hasil_20261108_214637_852913_IMG_20261003_112628_426.jpg",
+    "hasil": "Penggerek Buah, Busuk Buah",
+    "confidence": 89.6,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 89.6,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 84.8,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261108_214932_381306_IMG_20261003_112628_426.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 21:49",
+    "gambar_hasil": "results/hasil_20261108_214932_381306_IMG_20261003_112628_426.jpg",
+    "hasil": "Penggerek Buah, Busuk Buah",
+    "confidence": 89.6,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Busuk Buah",
+        "confidence": 89.6,
+        "warna": "#7A2E2E"
+      },
+      {
+        "nama": "Penggerek Buah",
+        "confidence": 84.8,
+        "warna": "#8C4A2F"
+      }
+    ]
+  },
+  {
+    "id": "20261108_215018_350065_IMG_20261003_113040_292.jpg",
+    "tipe": "gambar",
+    "waktu": "08 Nov 2026, 21:50",
+    "gambar_hasil": "results/hasil_20261108_215018_350065_IMG_20261003_113040_292.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 72.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 72.6,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_093858_241790_IMG_20261003_120617_088.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 09:39",
+    "gambar_hasil": "results/hasil_20261109_093858_241790_IMG_20261003_120617_088.jpg",
+    "hasil": "Kepik Pengisap",
+    "confidence": 89.5,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 89.5,
+        "warna": "#C08A34"
+      }
+    ]
+  },
+  {
+    "id": "20261109_093939_789656_IMG_20261003_112953_917.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 09:39",
+    "gambar_hasil": "results/hasil_20261109_093939_789656_IMG_20261003_112953_917.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.5,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.5,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 89.6,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 87.8,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_110705_126372_images_5.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 11:07",
+    "gambar_hasil": "results/hasil_20261109_110705_126372_images_5.jpg",
+    "hasil": "Kepik Pengisap",
+    "confidence": 92.1,
+    "jumlah_total": 2,
+    "deteksi_list": [
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 92.1,
+        "warna": "#C08A34"
+      },
+      {
+        "nama": "Kepik Pengisap",
+        "confidence": 91.1,
+        "warna": "#C08A34"
+      }
+    ]
+  },
+  {
+    "id": "20261109_110720_065354_IMG_20261003_112953_917.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 11:07",
+    "gambar_hasil": "results/hasil_20261109_110720_065354_IMG_20261003_112953_917.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.5,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.5,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 89.6,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 87.8,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_123555_070445_IMG_20261003_112953_917.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 12:36",
+    "gambar_hasil": "results/hasil_20261109_123555_070445_IMG_20261003_112953_917.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.5,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.5,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 89.6,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 87.8,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_123657_843679_24120.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 12:36",
+    "gambar_hasil": "results/hasil_20261109_123657_843679_24120.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 92.7,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 92.7,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_124131_486576_IMG_20261003_112953_917.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 12:41",
+    "gambar_hasil": "results/hasil_20261109_124131_486576_IMG_20261003_112953_917.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.5,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.5,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 89.6,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 87.8,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_124253_400455_24120.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 12:42",
+    "gambar_hasil": "results/hasil_20261109_124253_400455_24120.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 92.7,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 92.7,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "kamera_20261109_130613_116187.jpg",
+    "tipe": "kamera",
+    "waktu": "09 Nov 2026, 13:06",
+    "gambar_hasil": "results/hasil_kamera_20261109_130613_116187.jpg",
+    "hasil": "Tidak terdeteksi",
+    "confidence": 0.0,
+    "jumlah_total": 0,
+    "deteksi_list": []
+  },
+  {
+    "id": "20261109_131324_166828_IMG_20261003_120408_339.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 13:13",
+    "gambar_hasil": "results/hasil_20261109_131324_166828_IMG_20261003_120408_339.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.4,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.4,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 84.2,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 73.2,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 73.1,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_131406_370467_IMG_20261003_120408_339.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 13:14",
+    "gambar_hasil": "results/hasil_20261109_131406_370467_IMG_20261003_120408_339.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.4,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.4,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 84.2,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 73.2,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 73.1,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_131415_242107_IMG_20261003_120408_339.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 13:14",
+    "gambar_hasil": "results/hasil_20261109_131415_242107_IMG_20261003_120408_339.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.4,
+    "jumlah_total": 4,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.4,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 84.2,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 73.2,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 73.1,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_132001_955246_tabel44_no1_kelas0_1.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 13:20",
+    "gambar_hasil": "results/hasil_20261109_132001_955246_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_132038_221097_VID_20261003_112812.mp4",
+    "tipe": "video",
+    "waktu": "09 Nov 2026, 13:21",
+    "gambar_hasil": "results/hasil_20261109_132038_221097_VID_20261003_112812.mp4",
+    "hasil": "Buah Sehat",
+    "confidence": 84.1,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat #1",
+        "confidence": 84.1,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:00–0:09"
+      },
+      {
+        "nama": "Buah Sehat #3",
+        "confidence": 83.3,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:13–0:15"
+      },
+      {
+        "nama": "Buah Sehat #2",
+        "confidence": 54.4,
+        "vote_share": 100.0,
+        "warna": "#3F5C3E",
+        "keterangan": "muncul 0:10–0:11"
+      }
+    ],
+    "info_video": {
+      "durasi": 15.7,
+      "fps": 24.0,
+      "frame_total": 376,
+      "frame_diproses": 376,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261109_132243_891055_VID_20261003_120800.mp4",
+    "tipe": "video",
+    "waktu": "09 Nov 2026, 13:23",
+    "gambar_hasil": "results/hasil_20261109_132243_891055_VID_20261003_120800.mp4",
+    "hasil": "Tidak terdeteksi",
+    "confidence": 0.0,
+    "jumlah_total": 0,
+    "deteksi_list": [],
+    "info_video": {
+      "durasi": 10.7,
+      "fps": 24.0,
+      "frame_total": 257,
+      "frame_diproses": 257,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "id": "20261109_142443_932812_IMG_20261003_112953_917_1.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 14:24",
+    "gambar_hasil": "results/hasil_20261109_142443_932812_IMG_20261003_112953_917_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 91.5,
+    "jumlah_total": 3,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 91.5,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 89.6,
+        "warna": "#3F5C3E"
+      },
+      {
+        "nama": "Buah Sehat",
+        "confidence": 87.8,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_144120_990979_tabel44_no1_kelas0_1.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 14:41",
+    "gambar_hasil": "results/hasil_20261109_144120_990979_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "id": "20261109_144127_020088_tabel44_no1_kelas0_1.jpg",
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 14:41",
+    "gambar_hasil": "results/hasil_20261109_144127_020088_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ]
+  },
+  {
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 14:46",
+    "gambar_hasil": "results/hasil_20261109_144617_358478_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ],
+    "id": "20261109_144617_358478_tabel44_no1_kelas0_1"
+  },
+  {
+    "tipe": "video",
+    "waktu": "09 Nov 2026, 14:48",
+    "gambar_hasil": "results/hasil_20261109_144653_903697_VID_20261003_115153.mp4",
+    "hasil": "Tidak terdeteksi",
+    "confidence": 0.0,
+    "jumlah_total": 0,
+    "deteksi_list": [],
+    "id": "20261109_144653_903697_VID_20261003_115153",
+    "info_video": {
+      "durasi": 11.3,
+      "fps": 24.0,
+      "frame_total": 271,
+      "frame_diproses": 271,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "tipe": "video",
+    "waktu": "09 Nov 2026, 14:51",
+    "gambar_hasil": "results/hasil_20261109_144950_421701_VID_20261003_112812.mp4",
+    "hasil": "Buah Sehat",
+    "confidence": 84.1,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 84.1,
+        "warna": "#3F5C3E",
+        "keterangan": "maks. 1 objek dalam satu frame; muncul di 233 dari 376 frame diproses"
+      }
+    ],
+    "id": "20261109_144950_421701_VID_20261003_112812",
+    "info_video": {
+      "durasi": 15.7,
+      "fps": 24.0,
+      "frame_total": 376,
+      "frame_diproses": 376,
+      "stride": 1,
+      "h264": true
+    }
+  },
+  {
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 18:09",
+    "gambar_hasil": "results/hasil_20261109_180936_321104_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ],
+    "id": "20261109_180936_321104_tabel44_no1_kelas0_1"
+  },
+  {
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 18:09",
+    "gambar_hasil": "results/hasil_20261109_180943_702969_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 96.6,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 96.6,
+        "warna": "#3F5C3E"
+      }
+    ],
+    "id": "20261109_180943_702969_tabel44_no1_kelas0_1"
+  },
+  {
+    "tipe": "gambar",
+    "waktu": "09 Nov 2026, 21:14",
+    "gambar_hasil": "results/hasil_20261109_211431_548709_tabel44_no1_kelas0_1.jpg",
+    "hasil": "Buah Sehat",
+    "confidence": 93.5,
+    "jumlah_total": 1,
+    "deteksi_list": [
+      {
+        "nama": "Buah Sehat",
+        "confidence": 93.5,
+        "warna": "#3F5C3E"
+      }
+    ],
+    "id": "20261109_211431_548709_tabel44_no1_kelas0_1"
+  }
+]
